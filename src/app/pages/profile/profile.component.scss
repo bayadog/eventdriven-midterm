@@ -1,0 +1,84 @@
+.profile-mobile-card, .profile-desk-card {
+
+  .mat-card-image {
+  max-width: 400px;
+}
+
+.profile-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+img {
+  border-radius: 50%;
+}
+
+  
+  mat-card-content {
+
+    .age {
+      margin-top: 30px;
+    }
+
+    .place {
+      margin-bottom: 20px;
+    }
+    
+    .inf {
+      display: flex;
+      align-items: center;
+
+      mat-icon {
+        margin-right: 10px;
+      }
+    }
+
+    .chip {
+      margin-top: 100px;
+    }
+  }
+}
+
+.profile-desk-card {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .profile-desk-card {
+    display: block;
+  }
+
+  .profile-mobile-card {
+    display: none;
+  }
+}
+
+.example-container {
+  position: absolute;
+  top: 60px;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+}
+
+.example-sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.example-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.example-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+

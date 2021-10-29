@@ -1,0 +1,54 @@
+.contact_container {
+  .contact_content_container {
+    padding-top: 50px;
+
+    .top {
+      p {
+        display: flex;
+        justify-content: center;
+      }
+
+      .sent {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        .sendBtn {
+          text-decoration: none;
+          background: #673ab7;
+          color: #fff;
+          padding: 15px 20px;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .bottom {
+      margin-top: 200px;
+
+      p {
+        display: flex;
+        justify-content: center;
+      }
+
+      .iconBtns {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        .btns {
+          display: grid;
+          grid-template-columns: repeat(3, 40px);
+
+          i {
+            font-size: 30px;
+            color: #673ab7;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

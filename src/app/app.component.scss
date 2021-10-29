@@ -1,0 +1,41 @@
+.main-container {
+  height: 100%;
+
+  mat-sidenav {
+    background: #grey;
+    color: #fff;
+    padding: 10px 20px 20px;
+
+    .closeBtn {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 40px;
+    }
+
+    .navBtn {
+      display: block;
+      width: 100%;
+      padding: 10px 20px;
+      width: 200px;
+      margin-bottom: 5px;
+      text-align: start;
+
+      mat-icon {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  mat-sidenav-content {
+    
+    
+    mat-toolbar {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .app-content {
+     padding: 20px;
+    }
+  }
+}
